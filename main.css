@@ -1,0 +1,48 @@
+/*This is a CSS file*/
+
+
+/*Tell all the font on the page to be Arial, 
+With backup of Bush Script MT,
+With back of sans-serif*/
+/*put quotation marks when theres a space*/
+
+/*this applies to all fonts on the page because of the * */
+
+*{font-family: Arial, 
+	"Brush Script MT", 
+	sans-serif;}
+
+/*this applies to h1 elements on the page*/
+
+h1 {font-family: "Courier New", 
+Courier, 
+monospace;}
+/*see how the first element applies to everything and the second seems to 
+contradict that by saying only h1? css follows the more specific one*/
+
+em {
+	color:green;}
+
+em {color: red;}
+/*if i write two rules on the same thing, css applies the most recent one*/
+
+strong {
+	color: pink;}
+
+p strong {
+	color: blue !important;}
+
+p strong {
+	color: violet;}
+
+	/* !important will make it override */
+
+p#intro {
+	font-size: 100%;}
+
+p {
+	font-size: 75%;
+}
+
+
+
