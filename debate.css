@@ -1,13 +1,21 @@
-figcaption {color: grey;}
+/* asterisks set rules for everything, nice to put it at top of document*/
+* {font-family: Georgia, serif;}
 
 h1 {text-transform: uppercase;}
 
-* {font-family: Georgia, serif;}
+/*sets maximum space for image and caption*/
+figure {max-width:600px}
+
+img{
+	max-width: 100%;
+}
+
+figcaption {color: grey;}
 
 ol li {margin-bottom: 15px}
 
-footer {color: grey;}
+h6 {color: grey;}
 
-span#dem {color: blue;}
+.dem {color: blue;}
 
-span#rep {color:red;}
+.rep {color:red;}
